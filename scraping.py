@@ -23,7 +23,7 @@ def scrape_news_titles(url):
         print("Failed to retrieve page:", response.status_code)
 
 # URL of the news website you want to scrape
-url = 'https://edition.cnn.com/'
+url = 'URL HERE'
 
 # Call the function to scrape news titles
 scrape_news_titles(url)
